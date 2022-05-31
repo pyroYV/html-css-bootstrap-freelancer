@@ -1,1 +1,13 @@
-*
+:root{
+    --main-color: #1abc9c;
+    --secondary-color: #222222;
+    --tertiary-color: #2c3e50;
+}
+
+.main-color{
+    background-color: var(--main-color);
+}
+
+.sec-color{
+    background-color: var(--secondary-color);
+}
