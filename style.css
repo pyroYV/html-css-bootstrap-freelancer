@@ -11,3 +11,7 @@
 .sec-color{
     background-color: var(--secondary-color);
 }
+
+.t-white{
+    color: whitesmoke;
+}
