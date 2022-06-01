@@ -16,7 +16,29 @@
 
     </nav>
     <main>
-        <section class="main-color">
+        <nav class="navbar navbar-expand-sm bg-dark p-2">
+            <div class="container-fluid">
+              <a class="navbar-brand t-white" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon navbar-dark "></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link t-white" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  t-white" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  t-white" href="#">Pricing</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <section class="main-color p-4 t-white">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-7 col-sm-6 col-lg-3 text-center">
@@ -29,7 +51,9 @@
                     </div>
                 </div>
                 <div class="row text-center justify-content-center">
-                    <div class="col-6"><i class="bi bi-star-fill"></i></div>
+                    <div class="col-6">                    <div class="main-star mt-3 mb-3">
+                        <i class="bi bi-star-fill"></i>
+                    </div></div>
                 </div>
                 <div class="row text-center justify-content-center">
                     <div class="col-11 col-sm-11 col-lg-6">
@@ -42,15 +66,17 @@
 
         </section>
 
-        <section class="">
+        <section class=" p-4">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-6 text-center">
                         <h2>PORTFOLIO</h2>
-                        <i class="bi bi-star-fill"></i>
+                        <div class="main-star mt-3 mb-3">
+                            <i class="bi bi-star-fill"></i>
+                        </div>
                     </div>
                 </div>
-                <div class="row justify-content-center g-2">
+                <div class="row justify-content-center g-3">
                     <div class="col-12 col-sm-6 col-lg-4">
                         <img class="img-fluid rounded" src="./img/cabin.png" alt="">
                     </div>
@@ -73,9 +99,9 @@
             </div>
         </section>
 
-        <section class="main-color">
+        <section class="main-color p-4">
            
-                <div class="container">
+                <div class="container t-white">
                     <div class="row justify-content-center">
                         <div class="col-4 text-center">
                             <h2>ABOUT</h2>
@@ -90,13 +116,36 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe et optio eaque aperiam fugit! Quas, quisquam! Earum, necessitatibus blanditiis beatae ad sunt veniam cum molestiae reprehenderit, dolores dolor officiis similique quibusdam, quas eum eaque distinctio!
                         </div>
                     </div>
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center mt-5">
                         <div class="col-4 text-center">
                             <button type="button" class="btn btn-outline-primary"><i class="bi bi-download"></i> Download</button>
                         </div>
                     </div>
                 </div>
             
+        </section>
+
+        <section class="p-4">
+            <div class="container">
+                <div class="row justify-content-center text-center ">
+                    <h1>CONTACT ME</h1>
+                    <div class="main-star mt-3 mb-3">
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="row justify-content-center text-start">
+                        <div class="col-8">
+                            <form action="#" method="get">
+                                <input class="form-control border-0 border-bottom border-dark rounded-0 mb-2" type="text" placeholder="Name">
+                                <input class="form-control border-0 border-bottom border-dark rounded-0 mb-2" type="email" placeholder="Email Address">
+                                <input class="form-control border-0 border-bottom border-dark rounded-0 mb-2" type="tel" placeholder="Phone Number">
+                                <textarea class="form-control border-0 border-bottom border-dark rounded-0 mb-2" rows="8" cols="8" placeholder="Message"></textarea>
+                                <input class="btn text-white ms_section_green" type="submit" name="" id="" value="Send">
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
         </section>
 
         <section class="sec-color t-white p-4">
@@ -138,7 +187,9 @@
                 </div>
             </div>
         </section>
+
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 
 </html>
