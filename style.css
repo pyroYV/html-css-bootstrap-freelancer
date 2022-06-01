@@ -37,3 +37,7 @@
     top: 8px;
     right: 5%;
 } 
+
+.star-white::after,.star-white::before{
+    background-color: whitesmoke;
+}
